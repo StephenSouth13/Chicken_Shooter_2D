@@ -220,7 +220,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cce731b0e8a5246a253dcf499cc382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 5
+  BulletList:
+  - {fileID: 1689158852092706317, guid: 581c0c10c13e1ba4fbe9f62c2f0e285f, type: 3}
+  - {fileID: 3933750005138881264, guid: bdd684a394108c64fba9155a04b0635b, type: 3}
+  - {fileID: 734988180105157286, guid: 0bf6d1a48ebae46469549ccf88d9c276, type: 3}
+  - {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
+  - {fileID: 1407722233057579609, guid: bc8189c70b528f64f9c159d7533bd71b, type: 3}
+  - {fileID: 4288561068932456467, guid: be88ddbe4a650414384ec6d31f688e83, type: 3}
+  CurrenTierBuller: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,8 +531,8 @@ Transform:
   m_GameObject: {fileID: 795489665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1072, y: 0.0882, z: 0}
-  m_LocalScale: {x: 1.7561331, y: 0.97271615, z: 1}
+  m_LocalPosition: {x: -0.0949, y: -0.1382, z: 0}
+  m_LocalScale: {x: 1.9869882, y: 1.2019001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -2,21 +2,39 @@ using UnityEngine;
 
 public class Ship : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField]
-    private float Speed;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float Speed = 5f;
+    [SerializeField] private GameObject[] BulletList; 
+    [SerializeField] private int CurrenTierBuller = 0; 
 
-    // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");// Di chuyển theo trụ x
-        float y = Input.GetAxis("Vertical");// Di chuyển theo trụ y
+        Move();
+        Fire();
+    }
 
-        Vector3 direction = new Vector3(x, y, 0); // Tính toán hướng di chuyển
-        transform.position = direction * Speed * Time.deltaTime + transform.position; // Cập nhật vị trí của tàu
+    void Move()
+    {
+        float x = Input.GetAxis("Horizontal"); 
+        float y = Input.GetAxis("Vertical");   
+
+        Vector3 direction = new Vector3(x, y, 0);
+        transform.position += direction * Speed * Time.deltaTime;
+
+        Vector3 topLeft = Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0));
+        Vector3 bottomRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
+
+        transform.position = new Vector3(
+            Mathf.Clamp(transform.position.x, topLeft.x, bottomRight.x),
+            Mathf.Clamp(transform.position.y, bottomRight.y, topLeft.y),
+            transform.position.z
+        );
+    }
+
+    void Fire()
+    {
+        if (Input.GetKeyDown(KeyCode.Space)) // bắn bằng Space
+        {
+            Instantiate(BulletList[CurrenTierBuller], transform.position, Quaternion.identity);
+        }
     }
 }

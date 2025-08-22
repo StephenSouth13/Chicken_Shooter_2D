@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 533d1ac0df991a64797e2fe84ae3aa76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8746521254929155194
+    second: cartoon-explosion-animation-concept_0
+  - first:
+      213: 5149554380998714619
+    second: cartoon-explosion-animation-concept_1
+  - first:
+      213: 6887246186387774084
+    second: cartoon-explosion-animation-concept_2
+  - first:
+      213: -2089379888546057244
+    second: cartoon-explosion-animation-concept_3
+  - first:
+      213: 2114392426444988430
+    second: cartoon-explosion-animation-concept_4
+  - first:
+      213: -3145989045728321778
+    second: cartoon-explosion-animation-concept_5
+  - first:
+      213: 4991937452023552503
+    second: cartoon-explosion-animation-concept_6
+  - first:
+      213: -1803652083341255635
+    second: cartoon-explosion-animation-concept_7
+  - first:
+      213: -3782725443650915205
+    second: cartoon-explosion-animation-concept_8
+  - first:
+      213: 1040511998945575282
+    second: cartoon-explosion-animation-concept_9
+  - first:
+      213: 6713769936124509169
+    second: cartoon-explosion-animation-concept_10
+  - first:
+      213: 6140313294226997605
+    second: cartoon-explosion-animation-concept_11
+  - first:
+      213: -7636654719803784904
+    second: cartoon-explosion-animation-concept_12
+  - first:
+      213: 5411847798789138683
+    second: cartoon-explosion-animation-concept_13
+  - first:
+      213: 4225223368932213349
+    second: cartoon-explosion-animation-concept_14
+  - first:
+      213: 3155799517716648067
+    second: cartoon-explosion-animation-concept_15
+  - first:
+      213: 2175382773038278008
+    second: cartoon-explosion-animation-concept_16
+  - first:
+      213: -252666491855818938
+    second: cartoon-explosion-animation-concept_17
+  - first:
+      213: -2924255023106303791
+    second: cartoon-explosion-animation-concept_18
+  - first:
+      213: -3994906819339633213
+    second: cartoon-explosion-animation-concept_19
+  - first:
+      213: -6263329507149371924
+    second: cartoon-explosion-animation-concept_20
+  - first:
+      213: 2586745778217793416
+    second: cartoon-explosion-animation-concept_21
+  - first:
+      213: -7023696303261403727
+    second: cartoon-explosion-animation-concept_22
+  - first:
+      213: 6398148845130706803
+    second: cartoon-explosion-animation-concept_23
+  - first:
+      213: 6455905478589667987
+    second: cartoon-explosion-animation-concept_24
+  - first:
+      213: -9181633461176145915
+    second: cartoon-explosion-animation-concept_25
+  - first:
+      213: 3809241783053420118
+    second: cartoon-explosion-animation-concept_26
+  - first:
+      213: -5653762096125393619
+    second: cartoon-explosion-animation-concept_27
+  - first:
+      213: 7463989315614821164
+    second: cartoon-explosion-animation-concept_28
+  - first:
+      213: 5712809199423440614
+    second: cartoon-explosion-animation-concept_29
+  - first:
+      213: 3074546412640153329
+    second: cartoon-explosion-animation-concept_30
+  - first:
+      213: -6404758551158303982
+    second: cartoon-explosion-animation-concept_31
+  - first:
+      213: 55175867741077770
+    second: cartoon-explosion-animation-concept_32
+  - first:
+      213: 8033895360621597635
+    second: cartoon-explosion-animation-concept_33
+  - first:
+      213: 310130619770126192
+    second: cartoon-explosion-animation-concept_34
+  - first:
+      213: -7307570882059618579
+    second: cartoon-explosion-animation-concept_35
+  - first:
+      213: -41223334754711692
+    second: cartoon-explosion-animation-concept_36
+  - first:
+      213: 2012344715500990331
+    second: cartoon-explosion-animation-concept_37
+  - first:
+      213: 8002039745989947641
+    second: cartoon-explosion-animation-concept_38
+  - first:
+      213: 6448575397120208733
+    second: cartoon-explosion-animation-concept_39
+  - first:
+      213: 3623644003634596829
+    second: cartoon-explosion-animation-concept_40
+  - first:
+      213: -3421599089778202258
+    second: cartoon-explosion-animation-concept_41
+  - first:
+      213: 1106456682557351932
+    second: cartoon-explosion-animation-concept_42
+  - first:
+      213: -3454721795607955170
+    second: cartoon-explosion-animation-concept_43
+  - first:
+      213: 4488936229117174448
+    second: cartoon-explosion-animation-concept_44
+  - first:
+      213: 3393807894834759597
+    second: cartoon-explosion-animation-concept_45
+  - first:
+      213: 5133676572183880256
+    second: cartoon-explosion-animation-concept_46
+  - first:
+      213: 5590843892944777124
+    second: cartoon-explosion-animation-concept_47
+  - first:
+      213: -7621042638604308606
+    second: cartoon-explosion-animation-concept_48
+  - first:
+      213: 5223636216098528580
+    second: cartoon-explosion-animation-concept_49
+  - first:
+      213: 1824205399269748877
+    second: cartoon-explosion-animation-concept_50
+  - first:
+      213: 2618393972526130400
+    second: cartoon-explosion-animation-concept_51
+  - first:
+      213: -947483477862627758
+    second: cartoon-explosion-animation-concept_52
+  - first:
+      213: -5045176516221281136
+    second: cartoon-explosion-animation-concept_53
+  - first:
+      213: -8778543130207172407
+    second: cartoon-explosion-animation-concept_54
+  - first:
+      213: 6737181804272399464
+    second: cartoon-explosion-animation-concept_55
+  - first:
+      213: -4787039320212590715
+    second: cartoon-explosion-animation-concept_56
+  - first:
+      213: 1607588292822309500
+    second: cartoon-explosion-animation-concept_57
+  - first:
+      213: -504022753272414741
+    second: cartoon-explosion-animation-concept_58
+  - first:
+      213: -348496366149054946
+    second: cartoon-explosion-animation-concept_59
+  - first:
+      213: -7550928127726703477
+    second: cartoon-explosion-animation-concept_60
+  - first:
+      213: -2653914638501346746
+    second: cartoon-explosion-animation-concept_61
+  - first:
+      213: -3304262275831690049
+    second: cartoon-explosion-animation-concept_62
+  - first:
+      213: 3905922952859786923
+    second: cartoon-explosion-animation-concept_63
+  - first:
+      213: 831628555741182906
+    second: cartoon-explosion-animation-concept_64
+  - first:
+      213: -4748845212601540678
+    second: cartoon-explosion-animation-concept_65
+  - first:
+      213: -8925141560047483830
+    second: cartoon-explosion-animation-concept_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1780
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b3b8b724d1e9680800000000000000
+      internalID: -8746521254929155194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_1
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1772
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf42cfe0d64e67740800000000000000
+      internalID: 5149554380998714619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_2
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1519
+        width: 265
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a9e449ae9649f50800000000000000
+      internalID: 6887246186387774084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1766
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3fd56bf080103e0800000000000000
+      internalID: -2089379888546057244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1654
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00a70695b4d75d10800000000000000
+      internalID: 2114392426444988430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_5
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1589
+        width: 189
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fd71e81a33754d0800000000000000
+      internalID: -3145989045728321778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_6
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 770
+        width: 343
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f915d80aace64540800000000000000
+      internalID: 4991937452023552503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_7
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 771
+        width: 474
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c1d028cf328f6e0800000000000000
+      internalID: -1803652083341255635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_8
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1135
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74fa50304f018bc0800000000000000
+      internalID: -3782725443650915205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_9
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 770
+        width: 520
+        height: 559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271cea17624a07e00800000000000000
+      internalID: 1040511998945575282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 813
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbf5629f2a1c2d50800000000000000
+      internalID: 6713769936124509169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 109
+        width: 516
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56142088866c63550800000000000000
+      internalID: 6140313294226997605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_12
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 520
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83109c93ef6250690800000000000000
+      internalID: -7636654719803784904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_13
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 522
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf86e4956eeba1b40800000000000000
+      internalID: 5411847798789138683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 522
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56242e1944203aa30800000000000000
+      internalID: 4225223368932213349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_15
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 517
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38099d3f0f6abcb20800000000000000
+      internalID: 3155799517716648067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_16
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 518
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875637d3b13803e10800000000000000
+      internalID: 2175382773038278008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 510
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f2a421a295e7cf0800000000000000
+      internalID: -252666491855818938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_18
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 497
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8d813cc85fa67d0800000000000000
+      internalID: -2924255023106303791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_19
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 354
+        width: 302
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5000004, y: -0.9952844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdb97ae96d3f88c0800000000000000
+      internalID: -3994906819339633213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_20
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 480
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a32f6ffe2419a0800000000000000
+      internalID: -6263329507149371924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 483
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887b9e28497f5e320800000000000000
+      internalID: 2586745778217793416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_22
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 480
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b531e1ec61d68e90800000000000000
+      internalID: -7023696303261403727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_23
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 480
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f671ec97acac850800000000000000
+      internalID: 6398148845130706803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_24
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 483
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad5d2f3dbf79950800000000000000
+      internalID: 6455905478589667987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_25
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 482
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50861c07309449080800000000000000
+      internalID: -9181633461176145915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_26
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 479
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656897e28352dd430800000000000000
+      internalID: 3809241783053420118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_27
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 474
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25c0e7145dc981b0800000000000000
+      internalID: -5653762096125393619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_28
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 450
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b48849cba659760800000000000000
+      internalID: 7463989315614821164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_29
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 428
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6c739f2b9f74f40800000000000000
+      internalID: 5712809199423440614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_30
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 420
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe2ed23cabfaaa20800000000000000
+      internalID: 3074546412640153329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_31
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 427
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2135016180abd17a0800000000000000
+      internalID: -6404758551158303982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_32
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 399
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0181ecc82604c000800000000000000
+      internalID: 55175867741077770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_33
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 417
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3528cd3412e7f60800000000000000
+      internalID: 8033895360621597635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_34
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 375
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fbe51d72ecd4400800000000000000
+      internalID: 310130619770126192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_35
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 366
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de639dbfffa469a90800000000000000
+      internalID: -7307570882059618579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_36
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 109
+        width: 509
+        height: 404
+      alignment: 9
+      pivot: {x: 0.45862907, y: 0.5950485}
+      border: {x: 0, y: 0, z: 0, w: 186}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4770d7f689b8d6ff0800000000000000
+      internalID: -41223334754711692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_37
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f221d5bd84deb10800000000000000
+      internalID: 2012344715500990331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_38
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 339
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0b94a90c4fc0f60800000000000000
+      internalID: 8002039745989947641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_39
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 320
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f6cac5821fd7950800000000000000
+      internalID: 6448575397120208733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_40
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 314
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb4d1db505c94230800000000000000
+      internalID: 3623644003634596829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_41
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6968f991c90480d0800000000000000
+      internalID: -3421599089778202258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_42
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 319
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf720339d7cea5f00800000000000000
+      internalID: 1106456682557351932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_43
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 285
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19fcfea4dc5e00d0800000000000000
+      internalID: -3454721795607955170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_44
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 316
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b229eb87b7eb4e30800000000000000
+      internalID: 4488936229117174448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_45
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 109
+        width: 510
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7ca879c4a391f20800000000000000
+      internalID: 3393807894834759597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_46
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 299
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e3cc94ab7e3740800000000000000
+      internalID: 5133676572183880256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_47
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afa2a926eaa69d40800000000000000
+      internalID: 5590843892944777124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_48
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 275
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f62e3291e9c3690800000000000000
+      internalID: -7621042638604308606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_49
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 210
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d1b6866751e7840800000000000000
+      internalID: 5223636216098528580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_50
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 288
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80b2d44521e05910800000000000000
+      internalID: 1824205399269748877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_51
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 275
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4a176f177665420800000000000000
+      internalID: 2618393972526130400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_52
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 276
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256427ffbccd9d2f0800000000000000
+      internalID: -947483477862627758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_53
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 271
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cdc7160beebf9b0800000000000000
+      internalID: -5045176516221281136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_54
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 271
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c84e86a8895c2680800000000000000
+      internalID: -8778543130207172407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_55
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 278
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864b1e6e7274f7d50800000000000000
+      internalID: 6737181804272399464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_56
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 272
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa6e0e915019db0800000000000000
+      internalID: -4787039320212590715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_57
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 274
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a10c2f80d4f4610800000000000000
+      internalID: 1607588292822309500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 206
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedbb70f9f95109f0800000000000000
+      internalID: -504022753272414741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_59
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 207
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ecb22c664e92bf0800000000000000
+      internalID: -348496366149054946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_60
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 206
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c2856dfd6b53790800000000000000
+      internalID: -7550928127726703477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 193
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6420be382b66b2bd0800000000000000
+      internalID: -2653914638501346746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_62
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 193
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc045487f6e422d0800000000000000
+      internalID: -3304262275831690049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_63
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 193
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae904d2b30a43630800000000000000
+      internalID: 3905922952859786923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_64
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 169
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb360ae3c98a8b00800000000000000
+      internalID: 831628555741182906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_65
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 169
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf12998076b81eb0800000000000000
+      internalID: -4748845212601540678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-explosion-animation-concept_66
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 169
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a444b4fd907832480800000000000000
+      internalID: -8925141560047483830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3a5b6f60070b27643babe928a2b13a12
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cartoon-explosion-animation-concept_0: -8746521254929155194
+      cartoon-explosion-animation-concept_1: 5149554380998714619
+      cartoon-explosion-animation-concept_10: 6713769936124509169
+      cartoon-explosion-animation-concept_11: 6140313294226997605
+      cartoon-explosion-animation-concept_12: -7636654719803784904
+      cartoon-explosion-animation-concept_13: 5411847798789138683
+      cartoon-explosion-animation-concept_14: 4225223368932213349
+      cartoon-explosion-animation-concept_15: 3155799517716648067
+      cartoon-explosion-animation-concept_16: 2175382773038278008
+      cartoon-explosion-animation-concept_17: -252666491855818938
+      cartoon-explosion-animation-concept_18: -2924255023106303791
+      cartoon-explosion-animation-concept_19: -3994906819339633213
+      cartoon-explosion-animation-concept_2: 6887246186387774084
+      cartoon-explosion-animation-concept_20: -6263329507149371924
+      cartoon-explosion-animation-concept_21: 2586745778217793416
+      cartoon-explosion-animation-concept_22: -7023696303261403727
+      cartoon-explosion-animation-concept_23: 6398148845130706803
+      cartoon-explosion-animation-concept_24: 6455905478589667987
+      cartoon-explosion-animation-concept_25: -9181633461176145915
+      cartoon-explosion-animation-concept_26: 3809241783053420118
+      cartoon-explosion-animation-concept_27: -5653762096125393619
+      cartoon-explosion-animation-concept_28: 7463989315614821164
+      cartoon-explosion-animation-concept_29: 5712809199423440614
+      cartoon-explosion-animation-concept_3: -2089379888546057244
+      cartoon-explosion-animation-concept_30: 3074546412640153329
+      cartoon-explosion-animation-concept_31: -6404758551158303982
+      cartoon-explosion-animation-concept_32: 55175867741077770
+      cartoon-explosion-animation-concept_33: 8033895360621597635
+      cartoon-explosion-animation-concept_34: 310130619770126192
+      cartoon-explosion-animation-concept_35: -7307570882059618579
+      cartoon-explosion-animation-concept_36: -41223334754711692
+      cartoon-explosion-animation-concept_37: 2012344715500990331
+      cartoon-explosion-animation-concept_38: 8002039745989947641
+      cartoon-explosion-animation-concept_39: 6448575397120208733
+      cartoon-explosion-animation-concept_4: 2114392426444988430
+      cartoon-explosion-animation-concept_40: 3623644003634596829
+      cartoon-explosion-animation-concept_41: -3421599089778202258
+      cartoon-explosion-animation-concept_42: 1106456682557351932
+      cartoon-explosion-animation-concept_43: -3454721795607955170
+      cartoon-explosion-animation-concept_44: 4488936229117174448
+      cartoon-explosion-animation-concept_45: 3393807894834759597
+      cartoon-explosion-animation-concept_46: 5133676572183880256
+      cartoon-explosion-animation-concept_47: 5590843892944777124
+      cartoon-explosion-animation-concept_48: -7621042638604308606
+      cartoon-explosion-animation-concept_49: 5223636216098528580
+      cartoon-explosion-animation-concept_5: -3145989045728321778
+      cartoon-explosion-animation-concept_50: 1824205399269748877
+      cartoon-explosion-animation-concept_51: 2618393972526130400
+      cartoon-explosion-animation-concept_52: -947483477862627758
+      cartoon-explosion-animation-concept_53: -5045176516221281136
+      cartoon-explosion-animation-concept_54: -8778543130207172407
+      cartoon-explosion-animation-concept_55: 6737181804272399464
+      cartoon-explosion-animation-concept_56: -4787039320212590715
+      cartoon-explosion-animation-concept_57: 1607588292822309500
+      cartoon-explosion-animation-concept_58: -504022753272414741
+      cartoon-explosion-animation-concept_59: -348496366149054946
+      cartoon-explosion-animation-concept_6: 4991937452023552503
+      cartoon-explosion-animation-concept_60: -7550928127726703477
+      cartoon-explosion-animation-concept_61: -2653914638501346746
+      cartoon-explosion-animation-concept_62: -3304262275831690049
+      cartoon-explosion-animation-concept_63: 3905922952859786923
+      cartoon-explosion-animation-concept_64: 831628555741182906
+      cartoon-explosion-animation-concept_65: -4748845212601540678
+      cartoon-explosion-animation-concept_66: -8925141560047483830
+      cartoon-explosion-animation-concept_7: -1803652083341255635
+      cartoon-explosion-animation-concept_8: -3782725443650915205
+      cartoon-explosion-animation-concept_9: 1040511998945575282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
