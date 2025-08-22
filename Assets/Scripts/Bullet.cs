@@ -3,29 +3,22 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float Speed = 10f;
-    [SerializeField] private float DistanceDestroy = 10f;
 
     void Update()
     {
-        // Bay lên theo local up 
-        transform.Translate(Vector3.up * Speed * Time.deltaTime);
+        // Bay theo local up (luôn đi lên trên)
+        transform.Translate(Vector3.up * Speed * Time.deltaTime, Space.Self);
 
-        // Tự hủy khi quá xa camera
-        DistanceIsDestroy();
+        // Tự hủy khi ra ngoài màn hình
+        CheckOutOfScreen();
     }
 
-    void DistanceIsDestroy()
+    void CheckOutOfScreen()
     {
-        Vector3 cameraPos = Camera.main.transform.position;
-        if (Vector3.Distance(transform.position, cameraPos) > DistanceDestroy)
+        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
+        if (viewPos.x < 0 || viewPos.x > 1 || viewPos.y < 0 || viewPos.y > 1)
         {
             Destroy(gameObject);
         }
-    }
-
-    // Hoặc xài Unity sẵn có
-    void OnBecameInvisible()
-    {
-        Destroy(gameObject);
     }
 }
