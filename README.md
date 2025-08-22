@@ -1,6 +1,6 @@
 ![alt text](img/vtclogo.png)
 
-# 🐤 CHICKEN_SHOOTER_2D  
+# 🚀🐤 CHICKEN_SHOOTER_2D  🛰️🐔🥚
 
 **CHICKEN_SHOOTER_2D** là một trò chơi **bắn súng không gian 2D** được phát triển bằng **Unity**, nơi người chơi điều khiển phi thuyền chiến đấu chống lại đàn gà ngoài hành tinh.  
 Nhiệm vụ của bạn là **tiêu diệt kẻ thù**, **né tránh đạn trứng**, **thu thập vật phẩm nâng cấp** và **giải cứu Trái Đất khỏi thảm họa xâm lăng**.  
