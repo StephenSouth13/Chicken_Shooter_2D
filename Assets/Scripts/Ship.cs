@@ -32,7 +32,7 @@ public class Ship : MonoBehaviour
 
     void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // bắn bằng Space
+        if (Input.GetKeyDown(KeyCode.Space)) // Space Input
         {
             Instantiate(BulletList[CurrenTierBuller], transform.position, Quaternion.identity);
         }

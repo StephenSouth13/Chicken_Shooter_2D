@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        // Bay lên theo local up
+        // Bay lên theo local up 
         transform.Translate(Vector3.up * Speed * Time.deltaTime);
 
         // Tự hủy khi quá xa camera
