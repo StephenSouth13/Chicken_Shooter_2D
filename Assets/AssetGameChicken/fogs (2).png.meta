@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 5aeb7c833a94d00409f2045cb1705f49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5405501636230703973
+    second: fogs (2)_0
+  - first:
+      213: 6760349214226455724
+    second: fogs (2)_1
+  - first:
+      213: 239591167771534152
+    second: fogs (2)_2
+  - first:
+      213: 8261820630364565464
+    second: fogs (2)_3
+  - first:
+      213: -5060851504687690278
+    second: fogs (2)_4
+  - first:
+      213: 8104260347169414068
+    second: fogs (2)_5
+  - first:
+      213: 5313414079519841992
+    second: fogs (2)_6
+  - first:
+      213: -1422064081544379213
+    second: fogs (2)_7
+  - first:
+      213: -2738389570415373762
+    second: fogs (2)_8
+  - first:
+      213: 6612432521563529915
+    second: fogs (2)_9
+  - first:
+      213: 3331589554735700709
+    second: fogs (2)_10
+  - first:
+      213: 2629746976882784578
+    second: fogs (2)_11
+  - first:
+      213: 2937292889982911071
+    second: fogs (2)_12
+  - first:
+      213: 7623613328066132865
+    second: fogs (2)_13
+  - first:
+      213: 8345556251636811277
+    second: fogs (2)_14
+  - first:
+      213: -4724215842000628576
+    second: fogs (2)_15
+  - first:
+      213: -6319465443886033747
+    second: fogs (2)_16
+  - first:
+      213: 736336059914681885
+    second: fogs (2)_17
+  - first:
+      213: 8867611035979630912
+    second: fogs (2)_18
+  - first:
+      213: -7154734280989319771
+    second: fogs (2)_19
+  - first:
+      213: 9168775896303142485
+    second: fogs (2)_20
+  - first:
+      213: -3704630648044183812
+    second: fogs (2)_21
+  - first:
+      213: -938159404854901855
+    second: fogs (2)_22
+  - first:
+      213: 2645449061213991081
+    second: fogs (2)_23
+  - first:
+      213: 6377180430304930764
+    second: fogs (2)_24
+  - first:
+      213: -5368712505356491470
+    second: fogs (2)_25
+  - first:
+      213: 725688776638971380
+    second: fogs (2)_26
+  - first:
+      213: 2097636808415645298
+    second: fogs (2)_27
+  - first:
+      213: -1158126760066535646
+    second: fogs (2)_28
+  - first:
+      213: 6873252685538012915
+    second: fogs (2)_29
+  - first:
+      213: 209168990735098188
+    second: fogs (2)_30
+  - first:
+      213: -8593921418460696472
+    second: fogs (2)_31
+  - first:
+      213: -1655196350999930420
+    second: fogs (2)_32
+  - first:
+      213: 6299705867729699769
+    second: fogs (2)_33
+  - first:
+      213: -8855063293286900977
+    second: fogs (2)_34
+  - first:
+      213: 1921992015073958170
+    second: fogs (2)_35
+  - first:
+      213: 209930964001101297
+    second: fogs (2)_36
+  - first:
+      213: -8125811023370715320
+    second: fogs (2)_37
+  - first:
+      213: 1960027762628629039
+    second: fogs (2)_38
+  - first:
+      213: -8818712856413633317
+    second: fogs (2)_39
+  - first:
+      213: 3799298799635741325
+    second: fogs (2)_40
+  - first:
+      213: -6973286589025570147
+    second: fogs (2)_41
+  - first:
+      213: -7349674533138592121
+    second: fogs (2)_42
+  - first:
+      213: 8907920880921080859
+    second: fogs (2)_43
+  - first:
+      213: 5344106079961964049
+    second: fogs (2)_44
+  - first:
+      213: -1715939283882991149
+    second: fogs (2)_45
+  - first:
+      213: -8151302326040261939
+    second: fogs (2)_46
+  - first:
+      213: 4986559432116376327
+    second: fogs (2)_47
+  - first:
+      213: -1779309076588877377
+    second: fogs (2)_48
+  - first:
+      213: 2425359011543521941
+    second: fogs (2)_49
+  - first:
+      213: 2423425293431410437
+    second: fogs (2)_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fogs (2)_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 187
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56be25c3913340b40800000000000000
+      internalID: 5405501636230703973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 183
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac1f8fdac591dd50800000000000000
+      internalID: 6760349214226455724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 171
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843e75ec5e2335300800000000000000
+      internalID: 239591167771534152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 171
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfafde1712e7a270800000000000000
+      internalID: 8261820630364565464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 168
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addc61abe5e34c9b0800000000000000
+      internalID: -5060851504687690278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 167
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb1158f8dd187070800000000000000
+      internalID: 8104260347169414068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 165
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ced65224f90db940800000000000000
+      internalID: 5313414079519841992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_7
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 165
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b484b39040d34ce0800000000000000
+      internalID: -1422064081544379213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32d1ceb1394ff9d0800000000000000
+      internalID: -2738389570415373762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 81
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2e80d185414cb50800000000000000
+      internalID: 6612432521563529915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 80
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea5c6b6c0f2c3e20800000000000000
+      internalID: 3331589554735700709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249714641fcbe7420800000000000000
+      internalID: 2629746976882784578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5246bc225c53c820800000000000000
+      internalID: 2937292889982911071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 135
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb0542ee38cc960800000000000000
+      internalID: 7623613328066132865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 136
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d064ad7b13f51d370800000000000000
+      internalID: 8345556251636811277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 136
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4974fb8b6307eb0800000000000000
+      internalID: -4724215842000628576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 134
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da411d629afbc48a0800000000000000
+      internalID: -6319465443886033747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 136
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e7686cebdf73a00800000000000000
+      internalID: 736336059914681885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 138
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04946ed2145101b70800000000000000
+      internalID: 8867611035979630912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 132
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad525f241745bc90800000000000000
+      internalID: -7154734280989319771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 130
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556005479190e3f70800000000000000
+      internalID: 9168775896303142485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 127
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe1d47bd02869cc0800000000000000
+      internalID: -3704630648044183812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 127
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a38eeaedfcfaf2f0800000000000000
+      internalID: -938159404854901855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 130
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0fc0da7e586b420800000000000000
+      internalID: 2645449061213991081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_24
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 120
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbe5e840db408850800000000000000
+      internalID: 6377180430304930764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 111
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2356709cb608e75b0800000000000000
+      internalID: -5368712505356491470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_26
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 111
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdbd05f81a221a00800000000000000
+      internalID: 725688776638971380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e0661409d4c1d10800000000000000
+      internalID: 2097636808415645298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 120
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f2c5509d18defe0800000000000000
+      internalID: -1158126760066535646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_29
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 111
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe2ef4c6e2b26f50800000000000000
+      internalID: 6873252685538012915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_30
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 84
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41eaceb61e17e200800000000000000
+      internalID: 209168990735098188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_31
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 108
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8607701a0024cb880800000000000000
+      internalID: -8593921418460696472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_32
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 98
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9502930bf8709e0800000000000000
+      internalID: -1655196350999930420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_33
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 109
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b309730c1d0d6750800000000000000
+      internalID: 6299705867729699769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_34
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b9804d9de7c1580800000000000000
+      internalID: -8855063293286900977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 85
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19de97fd894caa10800000000000000
+      internalID: 1921992015073958170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_36
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 94
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f514a87913d9e200800000000000000
+      internalID: 209930964001101297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ff8083de15b3f80800000000000000
+      internalID: -8125811023370715320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_38
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 90
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22126d8dda633b10800000000000000
+      internalID: 1960027762628629039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_39
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 95
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd48b417163ad9580800000000000000
+      internalID: -8818712856413633317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_40
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 99
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a3bd3f022d9b430800000000000000
+      internalID: 3799298799635741325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_41
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 81
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b2281bc8e93f90800000000000000
+      internalID: -6973286589025570147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e0a8dc3f5b00a90800000000000000
+      internalID: -7349674533138592121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_43
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 82
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14f59258da4f9b70800000000000000
+      internalID: 8907920880921080859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 80
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e532a5a241a2a40800000000000000
+      internalID: 5344106079961964049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 84
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d124001052cf28e0800000000000000
+      internalID: -1715939283882991149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_46
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 87
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca0e8fc8b1c0ee80800000000000000
+      internalID: -8151302326040261939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_47
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 84
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7039ba23261d33540800000000000000
+      internalID: 4986559432116376327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_48
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 91
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9aa4072df9e47e0800000000000000
+      internalID: -1779309076588877377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_49
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a18dfbb2b98a120800000000000000
+      internalID: 2425359011543521941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogs (2)_50
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 81
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f0daae67cb1a120800000000000000
+      internalID: 2423425293431410437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fogs (2)_0: 5405501636230703973
+      fogs (2)_1: 6760349214226455724
+      fogs (2)_10: 3331589554735700709
+      fogs (2)_11: 2629746976882784578
+      fogs (2)_12: 2937292889982911071
+      fogs (2)_13: 7623613328066132865
+      fogs (2)_14: 8345556251636811277
+      fogs (2)_15: -4724215842000628576
+      fogs (2)_16: -6319465443886033747
+      fogs (2)_17: 736336059914681885
+      fogs (2)_18: 8867611035979630912
+      fogs (2)_19: -7154734280989319771
+      fogs (2)_2: 239591167771534152
+      fogs (2)_20: 9168775896303142485
+      fogs (2)_21: -3704630648044183812
+      fogs (2)_22: -938159404854901855
+      fogs (2)_23: 2645449061213991081
+      fogs (2)_24: 6377180430304930764
+      fogs (2)_25: -5368712505356491470
+      fogs (2)_26: 725688776638971380
+      fogs (2)_27: 2097636808415645298
+      fogs (2)_28: -1158126760066535646
+      fogs (2)_29: 6873252685538012915
+      fogs (2)_3: 8261820630364565464
+      fogs (2)_30: 209168990735098188
+      fogs (2)_31: -8593921418460696472
+      fogs (2)_32: -1655196350999930420
+      fogs (2)_33: 6299705867729699769
+      fogs (2)_34: -8855063293286900977
+      fogs (2)_35: 1921992015073958170
+      fogs (2)_36: 209930964001101297
+      fogs (2)_37: -8125811023370715320
+      fogs (2)_38: 1960027762628629039
+      fogs (2)_39: -8818712856413633317
+      fogs (2)_4: -5060851504687690278
+      fogs (2)_40: 3799298799635741325
+      fogs (2)_41: -6973286589025570147
+      fogs (2)_42: -7349674533138592121
+      fogs (2)_43: 8907920880921080859
+      fogs (2)_44: 5344106079961964049
+      fogs (2)_45: -1715939283882991149
+      fogs (2)_46: -8151302326040261939
+      fogs (2)_47: 4986559432116376327
+      fogs (2)_48: -1779309076588877377
+      fogs (2)_49: 2425359011543521941
+      fogs (2)_5: 8104260347169414068
+      fogs (2)_50: 2423425293431410437
+      fogs (2)_6: 5313414079519841992
+      fogs (2)_7: -1422064081544379213
+      fogs (2)_8: -2738389570415373762
+      fogs (2)_9: 6612432521563529915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
