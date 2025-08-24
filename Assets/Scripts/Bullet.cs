@@ -21,4 +21,13 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Chicken"))
+        {
+            Destroy(collision.gameObject); // ✅ Kill chicken
+            Destroy(gameObject);           // ✅ Destroy bullet ngay lập tức
+        }
+    }
 }

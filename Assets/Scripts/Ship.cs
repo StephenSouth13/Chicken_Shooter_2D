@@ -6,7 +6,14 @@ public class Ship : MonoBehaviour
     [SerializeField] private GameObject[] BulletList;
     [SerializeField] private int CurrenTierBuller;
     [SerializeField] private GameObject VFX;
+    [SerializeField] private GameObject Shield;
 
+
+    void Start()
+    {
+        Shield.SetActive(true);
+        StartCoroutine(DisableShield());
+    }
     void Update()
     {
         Move();
@@ -40,10 +47,22 @@ public class Ship : MonoBehaviour
             Instantiate(BulletList[CurrenTierBuller], transform.position, transform.rotation);
         }
     }
+
+    IEnumerator DisableShield()
+    {
+        yield return new WaitForSeconds(8);
+        Shield.SetActive(false);
+       
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (!Shield.activeSelf && (collision.CompareTag("Chicken") || collision.CompareTag("Egg")))
+        {
+            Destroy(collision.gameObject); // ✅ Kill chicken/egg khi va chạm
+            Destroy(gameObject);           // ✅ Kill ship
+        }
     }
+
     private void OnDestroy()
     {
         if (gameObject.scene.isLoaded)

@@ -4,24 +4,17 @@ using UnityEngine;
 public class Chicken : MonoBehaviour
 {
     [Header("Egg Settings")]
-    [SerializeField] private GameObject eggPrefab;        // Prefab quả trứng
-    [SerializeField] private float minLayTime = 3f;       // Thời gian tối thiểu giữa các lần đẻ
-    [SerializeField] private float maxLayTime = 6f;       // Thời gian tối đa giữa các lần đẻ
-    [SerializeField] private float eggLifeTime = 10f;     // Trứng tự hủy sau X giây
+    [SerializeField] private GameObject eggPrefab;
+    [SerializeField] private float minLayTime = 3f;
+    [SerializeField] private float maxLayTime = 6f;
 
     private Coroutine layEggRoutine;
-    private bool canLayEgg = true; // có thể bật/tắt đẻ trứng nếu cần
+    private bool canLayEgg = true;
 
     private void Start()
     {
-        if (canLayEgg && eggPrefab != null)
-        {
+        if (eggPrefab != null)
             layEggRoutine = StartCoroutine(LayEggRoutine());
-        }
-        else
-        {
-            Debug.LogWarning("⚠️ Chicken: EggPrefab chưa được gán hoặc canLayEgg = false.");
-        }
     }
 
     private IEnumerator LayEggRoutine()
@@ -30,26 +23,14 @@ public class Chicken : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(minLayTime, maxLayTime));
 
-            GameObject egg = Instantiate(eggPrefab, transform.position, Quaternion.identity);
-
-            if (eggLifeTime > 0f)
-                Destroy(egg, eggLifeTime);
+            // Đẻ trứng vô hạn, random
+            Instantiate(eggPrefab, transform.position, Quaternion.identity);
         }
     }
 
-    // Hàm bật/tắt đẻ trứng (nếu cần control ngoài)
-    public void SetLayEgg(bool state)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        canLayEgg = state;
-
-        if (canLayEgg && layEggRoutine == null)
-        {
-            layEggRoutine = StartCoroutine(LayEggRoutine());
-        }
-        else if (!canLayEgg && layEggRoutine != null)
-        {
-            StopCoroutine(layEggRoutine);
-            layEggRoutine = null;
-        }
+        if (collision.CompareTag("Bullet"))
+            Destroy(gameObject);
     }
 }
