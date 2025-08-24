@@ -3,8 +3,9 @@ using UnityEngine;
 public class Ship : MonoBehaviour
 {
     [SerializeField] private float Speed = 5f;
-    [SerializeField] private GameObject[] BulletList; 
-    [SerializeField] private int CurrenTierBuller = 0; 
+    [SerializeField] private GameObject[] BulletList;
+    [SerializeField] private int CurrenTierBuller;
+    [SerializeField] private GameObject VFX;
 
     void Update()
     {
@@ -14,8 +15,8 @@ public class Ship : MonoBehaviour
 
     void Move()
     {
-        float x = Input.GetAxis("Horizontal"); 
-        float y = Input.GetAxis("Vertical");   
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical");
 
         Vector3 direction = new Vector3(x, y, 0);
         transform.position += direction * Speed * Time.deltaTime;
@@ -37,6 +38,18 @@ public class Ship : MonoBehaviour
         {
             // Bắn đạn lên theo hướng up của tàu
             Instantiate(BulletList[CurrenTierBuller], transform.position, transform.rotation);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(gameObject);
+    }
+    private void OnDestroy()
+    {
+        if (gameObject.scene.isLoaded)
+        {
+            var vfx = Instantiate(VFX, transform.position, Quaternion.identity);
+            Destroy(vfx, 1f);
         }
     }
 }
