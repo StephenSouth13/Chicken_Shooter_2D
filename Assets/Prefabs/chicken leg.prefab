@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1317083084614763297}
   - component: {fileID: 8139266005823216337}
   - component: {fileID: 3075208128285766016}
-  m_Layer: 0
+  - component: {fileID: -5863464452520014891}
+  m_Layer: 6
   m_Name: chicken leg
-  m_TagString: Untagged
+  m_TagString: Chicken Leg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,3 +163,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-5863464452520014891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360756862933252470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d079240a4382cdd40938c556e366fe74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Distances: 20

@@ -13,6 +13,7 @@ public class Ship : MonoBehaviour
     [Header("Effects")]
     [SerializeField] private GameObject VFXExplosion;
     [SerializeField] private GameObject Shield;
+    [SerializeField] private int ScoreOfChickenLeg;
 
     void Start()
     {
@@ -75,6 +76,11 @@ public class Ship : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+        }
+        else if (collision.CompareTag("Chicken Leg"))
+        {
+            Destroy(collision.gameObject);
+            ScoreController.Instance.GetScore(ScoreOfChickenLeg);
         }
     }
 

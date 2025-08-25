@@ -225,6 +225,7 @@ MonoBehaviour:
   CurrentTierBullet: 0
   VFXExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   Shield: {fileID: 1225429175946987753}
+  ScoreOfChickenLeg: 400
 --- !u!60 &4431641759542047103
 PolygonCollider2D:
   m_ObjectHideFlags: 0

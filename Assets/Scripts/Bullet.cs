@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -7,27 +8,13 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         // Bay theo local up (luôn đi lên trên)
-        transform.Translate(Vector3.up * Speed * Time.deltaTime, Space.Self);
+        transform.Translate(Vector3.up * Speed * Time.deltaTime);
 
-        // Tự hủy khi ra ngoài màn hình
-        CheckOutOfScreen();
+
     }
 
-    void CheckOutOfScreen()
+    void Start()
     {
-        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
-        if (viewPos.x < 0 || viewPos.x > 1 || viewPos.y < 0 || viewPos.y > 1)
-        {
-            Destroy(gameObject);
-        }
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Chicken"))
-        {
-            Destroy(collision.gameObject); // ✅ Kill chicken
-            Destroy(gameObject);           // ✅ Destroy bullet ngay lập tức
-        }
     }
 }
