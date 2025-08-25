@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 166503306}
   m_Layer: 0
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,9 +224,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  BulletList: []
+  BulletList:
+  - {fileID: 1689158852092706317, guid: 581c0c10c13e1ba4fbe9f62c2f0e285f, type: 3}
+  - {fileID: 3933750005138881264, guid: bdd684a394108c64fba9155a04b0635b, type: 3}
+  - {fileID: 734988180105157286, guid: 0bf6d1a48ebae46469549ccf88d9c276, type: 3}
+  - {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
+  - {fileID: 1407722233057579609, guid: bc8189c70b528f64f9c159d7533bd71b, type: 3}
+  - {fileID: 4288561068932456467, guid: be88ddbe4a650414384ec6d31f688e83, type: 3}
   CurrenTierBuller: 0
   VFX: {fileID: 0}
+  Shield: {fileID: 0}
 --- !u!66 &166503306
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -297,7 +304,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &166503308
 PolygonCollider2D:
@@ -329,7 +336,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -948,37 +955,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &880160793
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 880160794}
-  m_Layer: 0
-  m_Name: GridChicken
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &880160794
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880160793}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195850699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChickenPrefab: {fileID: 3103771103283943925, guid: 8baa36e0c10be524a9648c5b82d645d5, type: 3}
-  GridChicken: {fileID: 0}
+  GridChicken: {fileID: 312791364}
   gridSize: 1
   rows: 5
   columns: 8
@@ -1171,4 +1147,3 @@ SceneRoots:
   - {fileID: 166503304}
   - {fileID: 1937773591}
   - {fileID: 312791364}
-  - {fileID: 880160794}
