@@ -79,16 +79,14 @@ public class Ship : MonoBehaviour
     }
 
     private void OnDestroy()
-{
-    // Kiểm tra để đảm bảo việc gọi chỉ diễn ra khi game đang chạy.
-    if (gameObject.scene.isLoaded && ShipController.Instance != null)
     {
-        // Tạo hiệu ứng nổ.
-        var explosionVFX = Instantiate(VFXExplosion, transform.position, Quaternion.identity);
-        Destroy(explosionVFX, 1f);
+     if (gameObject.scene.isLoaded && ShipController.Instance != null)
+            {
+                var explosionVFX = Instantiate(VFXExplosion, transform.position, Quaternion.identity);
+                Destroy(explosionVFX, 1f);
 
-        // Báo cho ShipController biết rằng tàu đã chết và cần hồi sinh.
-        ShipController.Instance.StartRespawn();
+                ShipController.Instance.SpawnShip();
+            }
     }
+
 }
-    }

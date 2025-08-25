@@ -222,8 +222,8 @@ MonoBehaviour:
   - {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
   - {fileID: 1407722233057579609, guid: bc8189c70b528f64f9c159d7533bd71b, type: 3}
   - {fileID: 4288561068932456467, guid: be88ddbe4a650414384ec6d31f688e83, type: 3}
-  CurrenTierBuller: 0
-  VFX: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+  CurrentTierBullet: 0
+  VFXExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   Shield: {fileID: 1225429175946987753}
 --- !u!60 &4431641759542047103
 PolygonCollider2D:

@@ -7,6 +7,8 @@ public class Chicken : MonoBehaviour
     [SerializeField] private GameObject eggPrefab;
     [SerializeField] private float minLayTime = 3f;
     [SerializeField] private float maxLayTime = 6f;
+    [SerializeField] private int score;
+    [SerializeField] private GameObject ChickenLegPrefab;
 
     private Coroutine layEggRoutine;
     private bool canLayEgg = true;
@@ -31,6 +33,14 @@ public class Chicken : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet"))
+        {
+            ScoreController.Instance.GetScore(score);
+            Instantiate(ChickenLegPrefab, transform.position, Quaternion.identity);
+
+            Destroy(collision.gameObject);
             Destroy(gameObject);
+
+        }
+            
     }
 }

@@ -201,4 +201,5 @@ MonoBehaviour:
   eggPrefab: {fileID: 3678521888964373082, guid: ec7f1ad42301981488b5bd7fd3467505, type: 3}
   minLayTime: 3
   maxLayTime: 6
-  eggLifeTime: 10
+  score: 100
+  ChickenLegPrefab: {fileID: 360756862933252470, guid: d23bcfdb5ea075e4686ecd62a64bb323, type: 3}

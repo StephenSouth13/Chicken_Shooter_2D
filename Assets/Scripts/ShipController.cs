@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 public class ShipController : MonoBehaviour
 {
     public static ShipController Instance;
@@ -30,22 +31,30 @@ public class ShipController : MonoBehaviour
 
     public void SpawnShip()
     {
-        // Vị trí tàu được sinh ra (ví dụ: ở dưới đáy màn hình, giữa).
-        Vector3 spawnPosition = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.1f, 10));
-        Instantiate(ShipPrefab, spawnPosition, Quaternion.identity);
+
+        var newShip = Instantiate(ShipPrefab, new Vector3(0, -10f, 0), Quaternion.identity); 
+        Vector3 point = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.2f, 0));
+        point.z = 0;
+        StartCoroutine(MoveToShip(newShip, point));
+
     }
 
+
     // Coroutine để sinh ra tàu với độ trễ.
-    public IEnumerator RespawnWithDelay()
+    public IEnumerator MoveToShip(GameObject ship, Vector3 point)
     {
-        // Chờ 2 giây sau khi tàu cũ bị phá hủy.
-        yield return new WaitForSeconds(2f);
-        // Sau đó, gọi phương thức SpawnShip để sinh ra tàu mới.
-        SpawnShip();
+    float timer = 0;
+    Vector3 startPos = ship.transform.position;
+
+    while (timer < 1f)
+    {
+        timer += Time.fixedDeltaTime;
+        ship.transform.position = Vector3.Lerp(startPos, point, timer);
+        yield return new WaitForFixedUpdate();
     }
-    public void StartRespawn()
-{
-    // Bắt đầu coroutine để hồi sinh tàu với độ trễ.
-    StartCoroutine(RespawnWithDelay());
-}
+
+        ship.transform.position = point;
+    }
+
+    
 }
