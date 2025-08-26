@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Chicken : MonoBehaviour
@@ -62,5 +63,10 @@ public class Chicken : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        Spawner.Instance.DereaChicken();
     }
 }

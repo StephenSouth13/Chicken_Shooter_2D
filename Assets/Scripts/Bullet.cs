@@ -13,8 +13,12 @@ public class Bullet : MonoBehaviour
 
     }
 
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        if (collision.name == "Boss")
+        {
+            Boss.instance.PutDamage(10);
+            Destroy(gameObject);
+        }
     }
 }
