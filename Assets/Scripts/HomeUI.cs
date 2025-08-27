@@ -1,15 +1,29 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class HomeUI : MonoBehaviour
 {
+    [SerializeField] private CanvasGroup canvasGroup;
+    [SerializeField] private float fadeDuration = 3f;
+
     public void StartGame()
     {
-        SceneManager.LoadScene("Scene_1"); // tên scene bạn muốn chuyển tới
+        StartCoroutine(FadeOutAndLoad());
     }
 
-    public void ExitGame()
+    private IEnumerator FadeOutAndLoad()
     {
-        Application.Quit();
+        float timer = 0f;
+
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            canvasGroup.alpha = 1 - (timer / fadeDuration);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 0;
+        SceneManager.LoadSceneAsync("Scene_1");
     }
 }
