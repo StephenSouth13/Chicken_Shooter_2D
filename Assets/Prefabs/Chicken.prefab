@@ -203,3 +203,4 @@ MonoBehaviour:
   maxLayTime: 6
   score: 100
   ChickenLegPrefab: {fileID: 360756862933252470, guid: d23bcfdb5ea075e4686ecd62a64bb323, type: 3}
+  PresentPrefab: {fileID: 5975128466452587024, guid: 5bdbabd778fc7f34eb3b98d3ffb94943, type: 3}
