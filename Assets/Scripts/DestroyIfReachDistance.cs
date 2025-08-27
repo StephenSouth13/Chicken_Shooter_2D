@@ -2,19 +2,20 @@ using UnityEngine;
 
 public class DestroyIfReachDistance : MonoBehaviour
 {
-    [SerializeField] private float Distances;
+    [SerializeField] private float maxDistance = 20f;
 
-    // Update is called once per frame
-    void Update()
+    private Vector3 screenCenter;
+
+    private void Start()
     {
-        DestroyIfTrue();
-
+        // Tính tâm màn hình một lần để tránh gọi lại mỗi frame
+        screenCenter = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, Camera.main.nearClipPlane));
+        screenCenter.z = 0;
     }
-    void DestroyIfTrue()
+
+    private void Update()
     {
-        Vector3 CenterScreen = Camera.main.ScreenToWorldPoint(Vector3.zero);
-        CenterScreen.z = 0;
-        if (Vector3.Distance(transform.position, CenterScreen) > Distances)
+        if (Vector3.Distance(transform.position, screenCenter) > maxDistance)
         {
             Destroy(gameObject);
         }

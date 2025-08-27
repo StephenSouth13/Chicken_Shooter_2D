@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(Health))]
 public class Ship : MonoBehaviour
 {
     [Header("Ship Stats")]
@@ -9,33 +10,39 @@ public class Ship : MonoBehaviour
     [Header("Projectiles")]
     [SerializeField] private GameObject[] BulletList;
     [SerializeField] private int CurrentTierBullet = 0;
+    [SerializeField] private int[] BulletDamageList;
 
     [Header("Effects")]
     [SerializeField] private GameObject VFXExplosion;
     [SerializeField] private GameObject Shield;
     [SerializeField] private int ScoreOfChickenLeg;
 
-    void Start()
+    private Health health;
+    private bool isInvincible = false;
+    private SpriteRenderer spriteRenderer;
+    private bool isDying = false;
+
+    private void Awake()
     {
-        // Kiểm tra xem Shield có được gán trong Inspector không.
-        if (Shield != null)
-        {
-            Shield.SetActive(true);
-            StartCoroutine(DisableShield());
-        }
-        else
-        {
-            Debug.LogWarning("Shield GameObject has not been assigned in the Inspector!");
-        }
+        health = GetComponent<Health>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (health == null) Debug.LogError("❌ Health component not found!");
+        if (spriteRenderer == null) Debug.LogError("❌ SpriteRenderer missing for blink effect!");
     }
 
-    void Update()
+    private void Start()
+    {
+        ActivateShield(5f);
+    }
+
+    private void Update()
     {
         Move();
         Fire();
     }
 
-    void Move()
+    private void Move()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -43,56 +50,112 @@ public class Ship : MonoBehaviour
         Vector3 direction = new Vector3(horizontalInput, verticalInput, 0);
         transform.position += direction * Speed * Time.deltaTime;
 
-        // Giới hạn vị trí tàu trong camera
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
         viewportPos.x = Mathf.Clamp(viewportPos.x, 0f, 1f);
         viewportPos.y = Mathf.Clamp(viewportPos.y, 0f, 1f);
         transform.position = Camera.main.ViewportToWorldPoint(viewportPos);
     }
 
-    void Fire()
+    private void Fire()
     {
         if (Input.GetKeyDown(KeyCode.Space) && BulletList.Length > CurrentTierBullet)
         {
-            // Bắn đạn theo Tier hiện tại.
-            Instantiate(BulletList[CurrentTierBullet], transform.position, transform.rotation);
+            GameObject bullet = Instantiate(BulletList[CurrentTierBullet], transform.position, transform.rotation);
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            if (bulletScript != null && BulletDamageList.Length > CurrentTierBullet)
+            {
+                bulletScript.SetDamage(BulletDamageList[CurrentTierBullet]);
+            }
+
+            Debug.Log("🔫 Fired bullet tier: " + CurrentTierBullet);
         }
     }
 
-    IEnumerator DisableShield()
+    private void ActivateShield(float duration)
     {
-        // Chờ 8 giây trước khi tắt Shield.
-        yield return new WaitForSeconds(8);
-        if (Shield != null)
-        {
-            Shield.SetActive(false);
-        }
+        if (Shield != null) Shield.SetActive(true);
+
+        isInvincible = true;
+        StartCoroutine(DisableShieldAfter(duration));
+        StartCoroutine(BlinkEffect(duration));
+        Debug.Log("🛡️ Shield activated for " + duration + " seconds.");
     }
-    
+
+    private IEnumerator DisableShieldAfter(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        if (Shield != null) Shield.SetActive(false);
+        isInvincible = false;
+        Debug.Log("🛡️ Shield disabled after " + seconds + " seconds.");
+    }
+
+    private IEnumerator BlinkEffect(float duration)
+    {
+        float blinkInterval = 0.2f;
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            if (spriteRenderer != null)
+                spriteRenderer.enabled = !spriteRenderer.enabled;
+
+            yield return new WaitForSeconds(blinkInterval);
+            timer += blinkInterval;
+        }
+
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Nếu không có Shield và va chạm với "Chicken" hoặc "Egg"
-        if (Shield != null && !Shield.activeSelf && (collision.CompareTag("Chicken") || collision.CompareTag("Egg")))
+        if (isDying) return;
+
+        if ((collision.CompareTag("Chicken") || collision.CompareTag("Egg")) && !isInvincible)
         {
             Destroy(collision.gameObject);
-            Destroy(gameObject);
+            health?.TakeDamage(1);
+            Debug.Log("💥 Hit by enemy. Damage taken.");
+            StartCoroutine(HandleDeath());
+        }
+        else if ((collision.CompareTag("Chicken") || collision.CompareTag("Egg")) && isInvincible)
+        {
+            Debug.Log("⚠️ Collision ignored due to invincibility.");
         }
         else if (collision.CompareTag("Chicken Leg"))
         {
             Destroy(collision.gameObject);
-            ScoreController.Instance.GetScore(ScoreOfChickenLeg);
+            ScoreController.Instance?.GetScore(ScoreOfChickenLeg);
+            health?.Heal(1);
+            Debug.Log("🍗 Collected Chicken Leg. Healed.");
         }
     }
 
-    private void OnDestroy()
+    private IEnumerator HandleDeath()
     {
-     if (gameObject.scene.isLoaded && ShipController.Instance != null)
-            {
-                var explosionVFX = Instantiate(VFXExplosion, transform.position, Quaternion.identity);
-                Destroy(explosionVFX, 1f);
+        isDying = true;
 
-                ShipController.Instance.SpawnShip();
-            }
+        if (VFXExplosion != null)
+        {
+            var explosionVFX = Instantiate(VFXExplosion, transform.position, Quaternion.identity);
+            Destroy(explosionVFX, 1f);
+            Debug.Log("💥 Explosion VFX triggered.");
+        }
+
+        ShipController.Instance?.StartCoroutine(ShipController.Instance.RespawnAfterDelay(3f));
+        yield return null;
+        Destroy(gameObject);
     }
 
+    public void UpgradeBullet()
+    {
+        if (CurrentTierBullet < BulletList.Length - 1)
+        {
+            CurrentTierBullet++;
+            Debug.Log("🎁 Bullet upgraded to tier " + CurrentTierBullet);
+        }
+        else
+        {
+            Debug.Log("🎁 Bullet already at max tier.");
+        }
+    }
 }

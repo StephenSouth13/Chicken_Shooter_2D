@@ -56,12 +56,15 @@ public class Spawner : MonoBehaviour
     }
 
     public void DereaChicken()
-    {
-        ChickenCurrent--;
+{
+    ChickenCurrent--;
 
-        if (ChickenCurrent <= 0)
+    if (ChickenCurrent <= 0 && Boss != null)
+    {
+        if (!Boss.gameObject.activeSelf)
         {
             Boss.gameObject.SetActive(true);
         }
     }
+}
 }

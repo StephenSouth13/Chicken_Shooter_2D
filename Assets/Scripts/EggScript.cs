@@ -18,7 +18,7 @@ public class EggScript : MonoBehaviour
     {
         // Check nếu trứng ra khỏi màn hình dưới thì vỡ
         Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
-        if (!isBroken && viewPos.y < 0.05f)
+        if (!isBroken && viewPos.y < 0.1f)
         {
             BreakEgg();
         }

@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 4431641759542047103}
   - component: {fileID: 8747518247742784188}
   - component: {fileID: 4692269308370029254}
+  - component: {fileID: 7048336147838270963}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Player
@@ -190,7 +191,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4360530552843628718, guid: c0384b76283249e499a16bf11d6b645b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -223,6 +224,7 @@ MonoBehaviour:
   - {fileID: 1407722233057579609, guid: bc8189c70b528f64f9c159d7533bd71b, type: 3}
   - {fileID: 4288561068932456467, guid: be88ddbe4a650414384ec6d31f688e83, type: 3}
   CurrentTierBullet: 0
+  BulletDamageList: 
   VFXExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   Shield: {fileID: 1225429175946987753}
   ScoreOfChickenLeg: 400
@@ -585,3 +587,20 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 7314380006603723791}
+--- !u!114 &7048336147838270963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314380006603723791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075956f0fedd5844788553a669b79199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 3
+  heartIcons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
