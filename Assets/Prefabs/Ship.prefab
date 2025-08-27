@@ -110,6 +110,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2130001793475658995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7148065002928097723}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7148065002928097723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130001793475658995}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5376923860722783236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7314380006603723791
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +177,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8810673782561010603}
+  - {fileID: 7148065002928097723}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3779000622355130982
@@ -216,18 +248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  BulletList:
-  - {fileID: 1689158852092706317, guid: 581c0c10c13e1ba4fbe9f62c2f0e285f, type: 3}
-  - {fileID: 3933750005138881264, guid: bdd684a394108c64fba9155a04b0635b, type: 3}
-  - {fileID: 734988180105157286, guid: 0bf6d1a48ebae46469549ccf88d9c276, type: 3}
-  - {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
-  - {fileID: 1407722233057579609, guid: bc8189c70b528f64f9c159d7533bd71b, type: 3}
-  - {fileID: 4288561068932456467, guid: be88ddbe4a650414384ec6d31f688e83, type: 3}
-  CurrentTierBullet: 0
-  BulletDamageList: 
+  redBulletPrefab: {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
+  yellowBulletPrefab: {fileID: 1689158852092706317, guid: 581c0c10c13e1ba4fbe9f62c2f0e285f, type: 3}
+  firePoint: {fileID: 7148065002928097723}
   VFXExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   Shield: {fileID: 1225429175946987753}
-  ScoreOfChickenLeg: 400
 --- !u!60 &4431641759542047103
 PolygonCollider2D:
   m_ObjectHideFlags: 0

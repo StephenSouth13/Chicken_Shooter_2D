@@ -17,7 +17,7 @@ public class PresentScript : MonoBehaviour
             Ship ship = collision.GetComponent<Ship>();
             if (ship != null)
             {
-                ship.UpgradeBullet();
+                ship.UpgradeBullet(); // nâng cấp đạn đỏ
                 ScoreController.Instance?.GetScore(scoreBonus);
             }
 

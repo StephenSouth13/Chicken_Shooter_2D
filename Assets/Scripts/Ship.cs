@@ -8,14 +8,16 @@ public class Ship : MonoBehaviour
     [SerializeField] private float Speed = 5f;
 
     [Header("Projectiles")]
-    [SerializeField] private GameObject[] BulletList;
-    [SerializeField] private int CurrentTierBullet = 0;
-    [SerializeField] private int[] BulletDamageList;
+    [SerializeField] private GameObject redBulletPrefab;
+    [SerializeField] private GameObject yellowBulletPrefab;
+    [SerializeField] private Transform firePoint;
 
     [Header("Effects")]
     [SerializeField] private GameObject VFXExplosion;
     [SerializeField] private GameObject Shield;
-    [SerializeField] private int ScoreOfChickenLeg;
+
+    private int CurrentTierBullet = 0;
+    private bool isUsingYellowBullet = false;
 
     private Health health;
     private bool isInvincible = false;
@@ -58,17 +60,72 @@ public class Ship : MonoBehaviour
 
     private void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && BulletList.Length > CurrentTierBullet)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject bullet = Instantiate(BulletList[CurrentTierBullet], transform.position, transform.rotation);
-            Bullet bulletScript = bullet.GetComponent<Bullet>();
-            if (bulletScript != null && BulletDamageList.Length > CurrentTierBullet)
+            if (isUsingYellowBullet)
             {
-                bulletScript.SetDamage(BulletDamageList[CurrentTierBullet]);
+                SpawnBullet(yellowBulletPrefab, -10);
+                SpawnBullet(yellowBulletPrefab, 0);
+                SpawnBullet(yellowBulletPrefab, 10);
+                return;
+            }
+
+            switch (CurrentTierBullet)
+            {
+                case 0:
+                    SpawnBullet(redBulletPrefab, 0);
+                    break;
+                case 1:
+                    SpawnBullet(redBulletPrefab, -10);
+                    SpawnBullet(redBulletPrefab, 10);
+                    break;
+                case 2:
+                    SpawnBullet(redBulletPrefab, -15);
+                    SpawnBullet(redBulletPrefab, 0);
+                    SpawnBullet(redBulletPrefab, 15);
+                    break;
+                case 3:
+                    SpawnBullet(redBulletPrefab, -15);
+                    SpawnBullet(redBulletPrefab, 0);
+                    SpawnBullet(redBulletPrefab, 15);
+                    SpawnBullet(redBulletPrefab, 30);
+                    break;
+                case 4:
+                    SpawnBullet(redBulletPrefab, -30);
+                    SpawnBullet(redBulletPrefab, -15);
+                    SpawnBullet(redBulletPrefab, 0);
+                    SpawnBullet(redBulletPrefab, 15);
+                    SpawnBullet(redBulletPrefab, 30);
+                    break;
             }
 
             Debug.Log("🔫 Fired bullet tier: " + CurrentTierBullet);
         }
+    }
+
+    private void SpawnBullet(GameObject prefab, float angleOffset)
+    {
+        Quaternion rotation = Quaternion.Euler(0, 0, angleOffset);
+        Instantiate(prefab, firePoint.position, rotation);
+    }
+
+    public void UpgradeBullet()
+    {
+        if (CurrentTierBullet < 4)
+        {
+            CurrentTierBullet++;
+            Debug.Log("🎁 Bullet upgraded to tier " + CurrentTierBullet);
+        }
+        else
+        {
+            Debug.Log("🎁 Bullet already at max red tier.");
+        }
+    }
+
+    public void ActivateYellowBullet()
+    {
+        isUsingYellowBullet = true;
+        Debug.Log("✨ Yellow bullet activated!");
     }
 
     private void ActivateShield(float duration)
@@ -124,7 +181,6 @@ public class Ship : MonoBehaviour
         else if (collision.CompareTag("Chicken Leg"))
         {
             Destroy(collision.gameObject);
-            ScoreController.Instance?.GetScore(ScoreOfChickenLeg);
             health?.Heal(1);
             Debug.Log("🍗 Collected Chicken Leg. Healed.");
         }
@@ -144,18 +200,5 @@ public class Ship : MonoBehaviour
         ShipController.Instance?.StartCoroutine(ShipController.Instance.RespawnAfterDelay(3f));
         yield return null;
         Destroy(gameObject);
-    }
-
-    public void UpgradeBullet()
-    {
-        if (CurrentTierBullet < BulletList.Length - 1)
-        {
-            CurrentTierBullet++;
-            Debug.Log("🎁 Bullet upgraded to tier " + CurrentTierBullet);
-        }
-        else
-        {
-            Debug.Log("🎁 Bullet already at max tier.");
-        }
     }
 }

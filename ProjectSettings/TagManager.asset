@@ -9,6 +9,7 @@ TagManager:
   - Egg
   - Ground
   - Chicken Leg
+  - Present
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - UI
   - ChickenLeg
   - Chicken
-  - 
-  - 
+  - Present
+  - Egg
   - 
   - 
   - 
