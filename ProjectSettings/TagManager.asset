@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - Chicken Leg
   - Present
+  - Boss
   layers:
   - Default
   - TransparentFX

@@ -6,10 +6,14 @@ public class HomeUI : MonoBehaviour
 {
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private float fadeDuration = 3f;
+    [SerializeField] private AudioClip homeMusic;
+
 
     public void StartGame()
     {
         StartCoroutine(FadeOutAndLoad());
+        AudioManager.Instance.PlayMusic(homeMusic);
+
     }
 
     private IEnumerator FadeOutAndLoad()
