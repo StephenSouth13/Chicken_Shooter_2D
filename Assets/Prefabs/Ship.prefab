@@ -247,7 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cce731b0e8a5246a253dcf499cc382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  fireSound: {fileID: 8300000, guid: 7c22fbec90340274199aeb1cfafdc823, type: 3}
+  speed: 5
   redBulletPrefab: {fileID: 5232137906630341814, guid: 130df6b9292187146a311c6d0d848de7, type: 3}
   yellowBulletPrefab: {fileID: 1689158852092706317, guid: 581c0c10c13e1ba4fbe9f62c2f0e285f, type: 3}
   firePoint: {fileID: 7148065002928097723}

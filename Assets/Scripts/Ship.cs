@@ -5,7 +5,8 @@ using System.Collections;
 public class Ship : MonoBehaviour
 {
     [Header("Ship Stats")]
-    [SerializeField] private float Speed = 5f;
+    [SerializeField] private AudioClip fireSound;
+    [SerializeField] private float speed = 5f;
 
     [Header("Projectiles")]
     [SerializeField] private GameObject redBulletPrefab;
@@ -16,7 +17,7 @@ public class Ship : MonoBehaviour
     [SerializeField] private GameObject VFXExplosion;
     [SerializeField] private GameObject Shield;
 
-    private int CurrentTierBullet = 0;
+    private int currentTierBullet = 0;
     private bool isUsingYellowBullet = false;
 
     private Health health;
@@ -50,7 +51,7 @@ public class Ship : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 direction = new Vector3(horizontalInput, verticalInput, 0);
-        transform.position += direction * Speed * Time.deltaTime;
+        transform.position += direction * speed * Time.deltaTime;
 
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
         viewportPos.x = Mathf.Clamp(viewportPos.x, 0f, 1f);
@@ -67,39 +68,49 @@ public class Ship : MonoBehaviour
                 SpawnBullet(yellowBulletPrefab, -10);
                 SpawnBullet(yellowBulletPrefab, 0);
                 SpawnBullet(yellowBulletPrefab, 10);
-                return;
             }
-
-            switch (CurrentTierBullet)
+            else
             {
-                case 0:
-                    SpawnBullet(redBulletPrefab, 0);
-                    break;
-                case 1:
-                    SpawnBullet(redBulletPrefab, -10);
-                    SpawnBullet(redBulletPrefab, 10);
-                    break;
-                case 2:
-                    SpawnBullet(redBulletPrefab, -15);
-                    SpawnBullet(redBulletPrefab, 0);
-                    SpawnBullet(redBulletPrefab, 15);
-                    break;
-                case 3:
-                    SpawnBullet(redBulletPrefab, -15);
-                    SpawnBullet(redBulletPrefab, 0);
-                    SpawnBullet(redBulletPrefab, 15);
-                    SpawnBullet(redBulletPrefab, 30);
-                    break;
-                case 4:
-                    SpawnBullet(redBulletPrefab, -30);
-                    SpawnBullet(redBulletPrefab, -15);
-                    SpawnBullet(redBulletPrefab, 0);
-                    SpawnBullet(redBulletPrefab, 15);
-                    SpawnBullet(redBulletPrefab, 30);
-                    break;
+                switch (currentTierBullet)
+                {
+                    case 0:
+                        SpawnBullet(redBulletPrefab, 0);
+                        break;
+                    case 1:
+                        SpawnBullet(redBulletPrefab, -10);
+                        SpawnBullet(redBulletPrefab, 10);
+                        break;
+                    case 2:
+                        SpawnBullet(redBulletPrefab, -15);
+                        SpawnBullet(redBulletPrefab, 0);
+                        SpawnBullet(redBulletPrefab, 15);
+                        break;
+                    case 3:
+                        SpawnBullet(redBulletPrefab, -15);
+                        SpawnBullet(redBulletPrefab, 0);
+                        SpawnBullet(redBulletPrefab, 15);
+                        SpawnBullet(redBulletPrefab, 30);
+                        break;
+                    case 4:
+                        SpawnBullet(redBulletPrefab, -30);
+                        SpawnBullet(redBulletPrefab, -15);
+                        SpawnBullet(redBulletPrefab, 0);
+                        SpawnBullet(redBulletPrefab, 15);
+                        SpawnBullet(redBulletPrefab, 30);
+                        break;
+                }
             }
 
-            Debug.Log("🔫 Fired bullet tier: " + CurrentTierBullet);
+            if (fireSound != null)
+            {
+                AudioManager.Instance.PlaySFX(fireSound);
+            }
+            else
+            {
+                Debug.LogWarning("⚠️ Fire sound is missing!");
+            }
+
+            Debug.Log("🔫 Fired bullet tier: " + currentTierBullet);
         }
     }
 
@@ -111,10 +122,10 @@ public class Ship : MonoBehaviour
 
     public void UpgradeBullet()
     {
-        if (CurrentTierBullet < 4)
+        if (currentTierBullet < 4)
         {
-            CurrentTierBullet++;
-            Debug.Log("🎁 Bullet upgraded to tier " + CurrentTierBullet);
+            currentTierBullet++;
+            Debug.Log("🎁 Bullet upgraded to tier " + currentTierBullet);
         }
         else
         {
@@ -167,7 +178,7 @@ public class Ship : MonoBehaviour
     {
         if (isDying) return;
 
-        if ((collision.CompareTag("Chicken") || collision.CompareTag("Egg")) && !isInvincible)
+        if ((collision.CompareTag("Chicken") || collision.CompareTag("Boss") || collision.CompareTag("Egg")) && !isInvincible)
         {
             Destroy(collision.gameObject);
             health?.TakeDamage(1);
