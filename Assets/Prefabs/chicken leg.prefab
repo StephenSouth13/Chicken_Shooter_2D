@@ -175,4 +175,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d079240a4382cdd40938c556e366fe74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Distances: 20
+  maxDistance: 20

@@ -10,15 +10,14 @@ public class Chicken : MonoBehaviour
 
     [Header("Chicken Settings")]
     [SerializeField] private int score = 100;
-    [SerializeField] private GameObject ChickenLegPrefab;
-    [SerializeField] private GameObject PresentPrefab;
+    [SerializeField] private GameObject chickenLegPrefab;
+    [SerializeField] private GameObject presentPrefab;
 
     private Coroutine layEggRoutine;
     private bool canLayEgg = true;
 
-    // Quản lý số lượng quà rớt ra toàn màn chơi
     public static int presentCount = 0;
-    public static int maxPresents = 5;
+    public static int maxPresents = 2;
 
     private void Start()
     {
@@ -32,7 +31,6 @@ public class Chicken : MonoBehaviour
         {
             float delay = Random.Range(minLayTime, maxLayTime);
 
-            // Nếu trứng quá nhiều trên màn hình thì delay thêm
             int eggCount = GameObject.FindGameObjectsWithTag("Egg").Length;
             if (eggCount > 30) delay += 2f;
 
@@ -49,15 +47,9 @@ public class Chicken : MonoBehaviour
 
             float dropChance = Random.Range(0f, 1f);
 
-            if (dropChance < 0.2f && presentCount < maxPresents && PresentPrefab != null)
+            if (dropChance < 0.5f && chickenLegPrefab != null)
             {
-                GameObject present = Instantiate(PresentPrefab, transform.position, Quaternion.identity);
-                present.tag = "Present";
-                presentCount++;
-            }
-            else if (ChickenLegPrefab != null)
-            {
-                GameObject leg = Instantiate(ChickenLegPrefab, transform.position, Quaternion.identity);
+                GameObject leg = Instantiate(chickenLegPrefab, transform.position, Quaternion.identity);
                 leg.tag = "Chicken Leg";
 
                 Rigidbody2D rb = leg.GetComponent<Rigidbody2D>();
@@ -65,9 +57,14 @@ public class Chicken : MonoBehaviour
                 {
                     rb.gravityScale = 1f;
                     rb.mass = 0.1f;
+                    rb.linearVelocity = new Vector2(Random.Range(-1f, 1f), 0f); // ✅ dùng linearVelocity
                 }
-
-                Destroy(leg, 3f);
+            }
+            else if (presentCount < maxPresents && presentPrefab != null)
+            {
+                GameObject present = Instantiate(presentPrefab, transform.position, Quaternion.identity);
+                present.tag = "Present";
+                presentCount++;
             }
 
             if (layEggRoutine != null)
@@ -80,6 +77,6 @@ public class Chicken : MonoBehaviour
 
     private void OnDestroy()
     {
-        Spawner.Instance?.DereaChicken();
+        Spawner.Instance?.DereaChicken(); // ✅ kiểm tra lại tên hàm nếu sai chính tả
     }
 }

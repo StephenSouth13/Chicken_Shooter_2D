@@ -11,6 +11,7 @@ TagManager:
   - Chicken Leg
   - Present
   - Boss
+  - BottomWall
   layers:
   - Default
   - TransparentFX
