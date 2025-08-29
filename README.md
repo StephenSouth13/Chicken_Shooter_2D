@@ -8,8 +8,11 @@ Nhiệm vụ của bạn là **tiêu diệt kẻ thù**, **né tránh đạn tr�
 ---
 
 ## 📸 Screenshot  
-![Chicken Shooter Screenshot](img/chickenvspace.png)  
+![Chicken Shooter Screenshot](img/chickenvspace.png) 
 
+- Boss And Chicken 
+
+![Boss And Chicken](img/Boss&Chicken.png)
 ---
 
 ## 🎮 Giới thiệu  
